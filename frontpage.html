@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pawsa – 2-in-1 waterbottle for Dogs</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <a href="frontpage.html" class="logo">🐾 Pawsa</a>
+    <ul class="nav-links">
+      <li><a href="frontpage.html" class="active">Hjem</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#shopify-buy" class="nav-cta">Buy Now</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Meny">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">For Your Furry Friend</span>
+      <h1 class="hero-title">Hold Your Pet<br/><em>hydrated</em> – With Style.</h1>
+      <p class="hero-sub">2-i-1 Waterbottle In A rustfree steel. Leak-free, light and beautiful </p>
+      <div class="hero-actions">
+        <a href="#shopify-buy" class="btn-primary">Se produktet →</a>
+        <a href="about.html" class="btn-ghost">Lær mer</a>
+      </div>
+      <div class="hero-trust">
+        <span>✅ Lekkasjefri</span>
+        <span>✅ Rustfritt stål 304</span>
+        <span>✅ Kun 170 gram</span>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="blob-bg"></div>
+      <img src="2in1Bottle.png" alt="Pawsa Waterbottle in mint & rosa" class="product-hero-img" id="heroImg"/>
+      <div class="floating-tag tag-1">💧 Lekkasjefri</div>
+      <div class="floating-tag tag-2">🎁 Perfect Gift</div>
+      <div class="floating-tag tag-3">🎱 Easy to Carry</div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="section-label">Hvorfor Pawsa?</div>
+    <h2 class="section-title">Alt du trenger<br/>på én tur</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>100% Lekkasjefri</h3>
+        <p>Smart topp-design sørger for at vann aldri lekker i vesken din – selv opp-ned.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🥩</div>
+        <h3>Rustfritt Stål 304</h3>
+        <p>Trygt for hunden, lett å rengjøre og slitesterkt nok for alle eventyr.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚖️</div>
+        <h3>Bare 170 gram</h3>
+        <p>Lett nok til å glemme at du bærer den – til du trenger den.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLORS -->
+  <section class="colors-section">
+    <div class="section-label">Velg din farge</div>
+    <h2 class="section-title">To nydelige farger</h2>
+    <div class="colors-grid">
+      <div class="color-card mint" data-color="mint" data-image="images/pawsa-mint.png">
+        <div class="color-swatch mint-swatch"></div>
+        <h3>Mint Breeze</h3>
+        <p>Frisk og leken – perfekt for aktive hunder og eierne deres.</p>
+        <a href="#shopify-buy" class="btn-color">Velg Mint</a>
+      </div>
+      <div class="color-card pink" data-color="pink" data-image="images/pawsa-pink.png">
+        <div class="color-swatch pink-swatch"></div>
+        <h3>Blossom Pink</h3>
+        <p>Søt og elegant – for de som elsker å gå på tur med stil.</p>
+        <a href="#shopify-buy" class="btn-color">Velg Rosa</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOPIFY BUY BUTTON -->
+  <section class="buy-section" id="shopify-buy">
+    <div class="section-label">Klar til å bestille?</div>
+    <h2 class="section-title">Få Pawsa-flasken<br/>hjem i dag</h2>
+    <p class="buy-sub">Trygg betaling. Rask levering.</p>
+    <!-- Shopify Buy Button embed her -->
+    <div class="product-component-wrapper">
+      <div id="product-component-pawsa">
+        <div id='product-component-1777463658985'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'gsphs0-1s.myshopify.com',
+      storefrontAccessToken: '2d09363920ad3f139479fbd62ac99431',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '9036154863858',
+        node: document.getElementById('product-component-1777463658985'),
+        moneyFormat: '%7B%7Bamount_with_space_separator%7D%7D%20kr',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {}
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script> 
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="section-label">Kundene elsker det</div>
+    <h2 class="section-title">Hva hundeeiere sier</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>«Perfekt for hundegåturene! Lett, lekkasjefri og søt design. Luna elsker det!»</p>
+        <span class="reviewer">– Maria S.</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>«Endelig en flaske som faktisk ikke lekker. Kjøpte en til i rosa som gave!»</p>
+        <span class="reviewer">– Thomas R.</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>«Kvaliteten er fantastisk, og eboken var en bonus jeg ikke forventet. Anbefales!»</p>
+        <span class="reviewer">– Camilla H.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo">🐾 Pawsa</span>
+        <p>Laget med kjærlighet for hunder og eierne som tar dem med overalt.</p>
+      </div>
+      <div class="footer-links">
+        <a href="frontpage.html">Hjem</a>
+        <a href="about.html">Om oss</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="#shopify-buy">Kjøp nå</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/pawsa.nordic/" target="_blank">📸 Instagram</a>
+        <a href="https://www.tiktok.com/@pawsa.co" target="_blank">🎵 TikTok</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Pawsa. Alle rettigheter forbeholdt.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

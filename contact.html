@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontakt – Pawsa</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="frontpage.html" class="logo">🐾 Pawsa</a>
+    <ul class="nav-links">
+      <li><a href="frontpage.html">Hjem</a></li>
+      <li><a href="about.html">Om oss</a></li>
+      <li><a href="contact.html" class="active">Kontakt</a></li>
+      <li><a href="frontpage.html#shopify-buy" class="nav-cta">Kjøp nå</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Meny">☰</button>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="hero-badge">Vi hjelper gjerne</span>
+      <h1 class="hero-title">Ta kontakt med<br/><em>Pawsa-teamet</em></h1>
+      <p class="hero-sub">Har du spørsmål om produktet, bestillingen din eller bare vil si hei? Vi svarer innen 24 timer.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-grid">
+      <!-- Contact Form -->
+      <div class="contact-form-wrap">
+        <h2>Send oss en melding</h2>
+        <div class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Ditt navn</label>
+            <input type="text" id="name" placeholder="f.eks. Maria og Bella 🐶" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-postadresse</label>
+            <input type="email" id="email" placeholder="din@epost.no" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Emne</label>
+            <select id="subject">
+              <option value="">Velg et emne...</option>
+              <option value="order">Spørsmål om bestilling</option>
+              <option value="product">Produktspørsmål</option>
+              <option value="return">Retur / bytte</option>
+              <option value="other">Annet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Din melding</label>
+            <textarea id="message" rows="5" placeholder="Fortell oss hva vi kan hjelpe med..."></textarea>
+          </div>
+          <button type="button" class="btn-primary" id="submitBtn">Send melding 🐾</button>
+          <div id="formFeedback" class="form-feedback"></div>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Kontaktinfo</h2>
+        <div class="info-item">
+          <span class="info-icon">📧</span>
+          <div>
+            <strong>E-post</strong>
+            <p>Pawsa.Nordic@outlook.com</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">⏰</span>
+          <div>
+            <strong>Svartid</strong>
+            <p>Innen 24 timer på hverdager</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">📸</span>
+          <div>
+            <strong>Instagram</strong>
+            <p><a href="https://www.instagram.com/pawsa.nordic/" target="_blank">@pawsa.nordic</a></p>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">🎵</span>
+          <div>
+            <strong>TikTok</strong>
+            <p><a href="https://www.tiktok.com/@pawsa.co" target="_blank">@pawsa.co</a></p>
+          </div>
+        </div>
+        <div class="faq-mini">
+          <h3>Vanlige spørsmål</h3>
+          <div class="faq-item">
+            <strong>Hvor lang er leveringstiden?</strong>
+            <p>3–7 virkedager til Norge.</p>
+          </div>
+          <div class="faq-item">
+            <strong>Kan jeg returnere produktet?</strong>
+            <p>Ja, innen 30 dager ubrukt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo">🐾 Pawsa</span>
+        <p>Laget med kjærlighet for hunder og eierne som tar dem med overalt.</p>
+      </div>
+      <div class="footer-links">
+        <a href="frontpage.html">Hjem</a>
+        <a href="about.html">Om oss</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="frontpage.html#shopify-buy">Kjøp nå</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/pawsa.nordic/" target="_blank">📸 Instagram</a>
+        <a href="https://www.tiktok.com/@pawsa.co" target="_blank">🎵 TikTok</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Pawsa. Alle rettigheter forbeholdt.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
